@@ -1,0 +1,18 @@
+.fundo-azul{
+  background-color: #06C3FF;
+  height: 100vh;
+  padding-top: 5rem;
+}
+
+.tela-branca{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width:  100%;
+  max-width: 380px;
+  height: 100%;
+  max-height: 400px;
+  align-items: center;
+  margin: auto;
+}
+

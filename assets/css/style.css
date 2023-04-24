@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Arial";
+}
+
+/* Cabecalho */
+header{
+  background-color: #F1FCFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.img-logo{
+  width: 40px;
+}
+
+.links{
+  display: flex;
+  gap: 15px;
+}
+
+.links li, a{
+  list-style: none;
+  text-decoration: none;
+  color: #404040;
+}
+
+.btn-login{
+  background-color: #06C3FF;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btn-login:hover {
+  background-color: #333;
+  color: #fff;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Skills</title>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/tela-login.css">
+
+</head>
+<body>
+     <!--Cabecalho-->
+     <header>
+      <img class="img-logo" src="../img/logo .png" alt="logo">
+      <nav>
+        <ul class="links">
+          <li><a href="#">Cadastrar</a></li>
+        </ul>
+      </nav>
+     </header>
+
+     <main>
+       <section class="fundo-azul">
+              <div class="tela-branca">
+            
+                <form method="POST" class="form">
+                   <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
+                   </div>
+                   <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" maxlength="8" placeholder="*******" required>
+                   </div>
+                   <div class="form-group">
+                    <input type="checkbox" name="senha" id="senha">
+                    <label for="senha">Mostrar senha?</label>
+                   </div>
+                   <button type="submit">Entrar</button>
+                </form>
+              </div>
+       </section>
+     </main>
+</body>
+</html>
