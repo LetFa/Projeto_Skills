@@ -25,22 +25,27 @@
      <main>
        <section class="fundo-azul">
               <div class="tela-branca">
-            
+                <h1>login</h1>
+              <div class="flex">
                 <form method="POST" class="form">
-                   <div class="form-group">
+                   <div class="form-group form-email">
                     <label for="email">E-mail:</label>
                     <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
                    </div>
                    <div class="form-group">
                     <label for="senha">Senha:</label>
-                    <input type="password" name="senha" id="senha" maxlength="8" placeholder="*******" required>
+                    <input type="password" name="senha" id="senha" maxlength="8" placeholder="*********" required>
                    </div>
-                   <div class="form-group">
+                   <div class="form-checkbox">
                     <input type="checkbox" name="senha" id="senha">
                     <label for="senha">Mostrar senha?</label>
                    </div>
-                   <button type="submit">Entrar</button>
+                   <button class="btn-entrar" type="submit">Entrar</button>
+                   <div class="form-cadastrar">
+                     <p class="texto">Não tem uma conta?<a href="#">Cadastrar</a></p>
+                   </div>  
                 </form>
+              </div>
               </div>
        </section>
      </main>
