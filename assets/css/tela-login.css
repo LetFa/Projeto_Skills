@@ -1,6 +1,6 @@
 .fundo-azul{
   background-color: #06C3FF;
-  height: 100vh;
+  height: 80vh;
   padding-top: 5rem;
 }
 
@@ -80,5 +80,43 @@
 
 .texto{
   color: #404040;
-  font-size: 12px;
+  font-size: 13px;
+  margin-top: 6px;
+}
+.link-cadastro{
+  color: #06C3FF;
+}
+
+
+
+/*rodape*/
+
+footer{
+  padding-top: 1rem;
+  background-color: #E5F9FF;
+  height: 100%;
+  padding: 10px;
+}
+
+.rodape{
+  text-align: center;
+}
+
+.rodape i{
+  font-size: 24px;
+  color: #404040;
+  padding: 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+.rodape i:hover{
+  color: #06C3FF;
+}
+
+.rodape-texto{
+  color: #404040;
+  margin-top: 4px;
+}
+.rodape-texto span{
+  color: #06C3FF;
 }
