@@ -4,14 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login | Skills</title>
+  <title>Cadastra-se | Skills</title>
 
   <!--CSS-->
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/tela-login.css">
-  
-   <!--Javascript-->
-   <script src="../js/mostrar-senha.js"  defer></script>
+  <link rel="stylesheet" href="../css/tela-cadastro.css">
 
   <!--font awesome icon-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -20,12 +17,12 @@
 
 </head>
 <body>
-     <!--Cabecalho-->
-     <header>
+    <!--Cabecalho-->
+    <header>
       <a href="../../index.html"><img class="img-logo" src="../img/logo .png" alt="logo"></a>
       <nav>
         <ul class="links">
-          <li><a href="tela-cadastro.html">Cadastrar</a></li>
+          <li><a href="tela-login.html">Login</a></li>
         </ul>
       </nav>
      </header>
@@ -36,23 +33,25 @@
                 <h1>login</h1>
               <div class="flex">
                 <form method="POST" class="form">
-                   <div class="form-group form-email">
+                   <div class="form-group form-bottom">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                   </div>
+                   <div class="form-group form-bottom">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxx-xxxx" required>
+                   </div>
+                   <div class="form-group form-bottom">
                     <label for="email">E-mail:</label>
                     <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
                    </div>
                    <div class="form-group">
-                    <label for="senha">Senha:</label>
-                    <input type="password" id="senha" name="senha" minlength="8"  placeholder="senha" required>
+                    <label for="senha">Criar senha:</label>
+                    <input type="password" name="senha" id="senha" maxlength="8" placeholder="*********" required>
                    </div>
-
-                   <div class="form-checkbox mostrar-senha">
-                        <input class="input-mostrar-senha" type="checkbox"  id="mostrar-senha-login" required>
-                        <label class="label-mostrar-senha" for="mostrar-senha-login">Mostrar Senha</label>
-                   </div>
-
-                   <button class="btn-entrar" type="submit">Entrar</button>
+                   <button class="btn-entrar" type="submit">Cadastrar</button>
                    <div class="form-cadastrar">
-                     <p class="texto">Não tem uma conta? <a class="link-cadastro" href="tela-cadastro.html">Cadastrar</a></p>
+                     <p class="texto">Voltar para tela de login? <a class="link-cadastro" href="tela-login.html">Login</a></p>
                    </div>  
                 </form>
               </div>
@@ -70,7 +69,6 @@
            <p class="rodape-texto">&copy; Copyright - by <span>Letícia Farias</span> e <span>Larissa Farias</span></p>
        </div>
      </footer>
-
 
 </body>
 </html>
