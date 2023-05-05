@@ -1,11 +1,10 @@
 .fundo-azul{
-  background-color: #06C3FF;
   height: 80vh;
   padding-top: 5rem;
 }
 
 .tela-branca{
-  background-color: #fff;
+  border: 1px solid #333;
   width: 100%;
   max-width: 300px;
   margin: auto;
@@ -93,7 +92,7 @@
 
 footer{
   padding-top: 1rem;
-  background-color: #E5F9FF;
+  background-color: #06C3FF;
   height: 100%;
   padding: 10px;
 }
@@ -110,7 +109,7 @@ footer{
   transition: .5s;
 }
 .rodape i:hover{
-  color: #06C3FF;
+  color: #333;
 }
 
 .rodape-texto{
@@ -118,5 +117,5 @@ footer{
   margin-top: 4px;
 }
 .rodape-texto span{
-  color: #06C3FF;
+  color: #333;
 }
